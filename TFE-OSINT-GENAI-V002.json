@@ -1,0 +1,565 @@
+{
+  "name": "TFE-OSINT-GENAI-V002",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -3344,
+        -1360
+      ],
+      "id": "18e19024-e0b7-422b-89d0-1152c4df42f3",
+      "name": "When clicking ‘Execute workflow’",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        -2768,
+        -1088
+      ],
+      "id": "3210944e-c0f0-48fa-b2b8-b45c79e9d769",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "WFQq6DTFohrhYXuN",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "https://r.jina.ai/https://www.bleepingcomputer.com/news/security/",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "jinaAiApi",
+        "options": {
+          "allowUnauthorizedCerts": true
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        -3088,
+        -1360
+      ],
+      "id": "a98e51cc-5b22-4735-a7ea-7254f0ddfea4",
+      "name": "HTTP Request3",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "LCBQIYTCVTjkft7y",
+          "name": "Header Auth account"
+        },
+        "jinaAiApi": {
+          "id": "gAf1v51YvVRza06y",
+          "name": "Jina AI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "text": "={{ $json.results }}",
+        "schemaType": "manual",
+        "inputSchema": "[\n  {\n    \"ITEM\": 0,\n    \"Title\": \"CISA orders feds to patch Samsung zero-day used in spyware attacks\",\n    \"URL\": \"https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-samsung-zero-day-used-in-spyware-attacks/\",\n    \"PublicationDate\": \"2025-11-10T15:00:00Z\",\n    \"Author\": \"Sergiu Gatlan\",\n    \"Category\": \"Security\",\n    \"Summary\": \"CISA ordered U.S. federal agencies today to patch a critical Samsung vulnerability exploited to deploy LandFall spyware via WhatsApp.\",\n    \"Tags\": [\"zero-day\", \"Samsung\", \"spyware\", \"CISA\"],\n    \"ScrapeTimestamp\": \"2025-11-10T15:05:00Z\"\n  },\n  {\n    \"ITEM\": 1,\n    \"Title\": \"Popular JavaScript library expr-eval vulnerable to RCE flaw\",\n    \"URL\": \"https://www.bleepingcomputer.com/news/security/popular-javascript-library-expr-eval-vulnerable-to-rce-flaw/\",\n    \"PublicationDate\": \"2025-11-10T13:32:00Z\",\n    \"Author\": \"Bill Toulas\",\n    \"Category\": \"Security\",\n    \"Summary\": \"A critical RCE vulnerability in the popular expr-eval JavaScript library (800k weekly downloads) allows maliciously crafted input to execute code remotely.\",\n    \"Tags\": [\"RCE\", \"javascript\", \"library\", \"vulnerability\"],\n    \"ScrapeTimestamp\": \"2025-11-10T13:35:00Z\"\n  }\n]",
+        "options": {
+          "systemPromptTemplate": "You are an expert information extraction engine.  \nYour goal is to read the given article text (or metadata) and for all news, extract the following attributes in a valid JSON object:\n\n- ITEM: an auto-incremented integer (you do not need to compute the increment, this placeholder will be handled externally).  \n- Title: the headline of the news article (string).  \n- URL: the full link to the article (string).  \n- PublicationDate: the published date/time (ISO 8601 format string).  \n- Author: name of the article’s author (string).  \n- Category: one of “Security”, “Vulnerability”, “Incident”, “Patch”, etc. (string).  \n- Summary: a short description or excerpt of the article (string).  \n- Tags: a list of key-words or phrases (array of strings).  \n- ScrapeTimestamp: the date/time you ran the extraction (ISO 8601 format string).\n\nIf any attribute is missing or cannot be determined, set its value to `null` (except ITEM, which will always be provided).  \nReturn **only** the JSON object (no extra text).\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.informationExtractor",
+      "typeVersion": 1.2,
+      "position": [
+        -2768,
+        -1360
+      ],
+      "id": "de8c1f95-6961-496f-8e81-04e867b20b7f",
+      "name": "Information Extractor1",
+      "alwaysOutputData": false
+    },
+    {
+      "parameters": {
+        "mode": "insert",
+        "qdrantCollection": {
+          "__rl": true,
+          "value": "Bleeping_News",
+          "mode": "id"
+        },
+        "embeddingBatchSize": 10,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreQdrant",
+      "typeVersion": 1.3,
+      "position": [
+        -2016,
+        -1056
+      ],
+      "id": "c0162718-d60b-445d-8496-187a5745c8ff",
+      "name": "Qdrant Vector Store",
+      "credentials": {
+        "qdrantApi": {
+          "id": "sFfERYppMeBnFNeA",
+          "name": "Local QdrantApi database"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "textSplittingMode": "custom",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
+      "typeVersion": 1.1,
+      "position": [
+        -1904,
+        -848
+      ],
+      "id": "e357ba67-d7d0-4046-9850-9e67e4b22128",
+      "name": "Default Data Loader",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "chunkSize": 3000
+      },
+      "type": "@n8n/n8n-nodes-langchain.textSplitterTokenSplitter",
+      "typeVersion": 1,
+      "position": [
+        -1856,
+        -640
+      ],
+      "id": "eac24c55-1dad-4f27-8633-8a5590a9cb0e",
+      "name": "Token Splitter",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "model": "ALIENTELLIGENCE/cybersecuritythreatanalysisv2:latest"
+      },
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOllama",
+      "typeVersion": 1,
+      "position": [
+        -2128,
+        -816
+      ],
+      "id": "fde4be85-02eb-4e3f-b90d-78b1e614515a",
+      "name": "Embeddings Ollama",
+      "credentials": {
+        "ollamaApi": {
+          "id": "xHuYe0MDGOs9IpBW",
+          "name": "Local Ollama service"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3,
+      "position": [
+        -880,
+        -1168
+      ],
+      "id": "24839bf8-aa5c-4d4a-97b8-25c7407b1401",
+      "name": "AI Agent",
+      "disabled": true
+    },
+    {
+      "parameters": {},
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        -800,
+        -976
+      ],
+      "id": "3b45c07b-bca8-4210-b8b5-903ce825ac8b",
+      "name": "Simple Memory",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "description": "Global Threat"
+      },
+      "type": "@n8n/n8n-nodes-langchain.toolVectorStore",
+      "typeVersion": 1.1,
+      "position": [
+        -640,
+        -1008
+      ],
+      "id": "36c334d9-5955-4ead-b165-699eaf39a820",
+      "name": "Answer questions with a vector store",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "qdrantCollection": {
+          "__rl": true,
+          "value": "Bleeping_News",
+          "mode": "id"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreQdrant",
+      "typeVersion": 1.3,
+      "position": [
+        -816,
+        -736
+      ],
+      "id": "6dea2350-02cc-4114-8dea-327aeaae34f0",
+      "name": "Qdrant Vector Store1",
+      "credentials": {
+        "qdrantApi": {
+          "id": "sFfERYppMeBnFNeA",
+          "name": "Local QdrantApi database"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "model": "embeddinggemma:300m"
+      },
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOllama",
+      "typeVersion": 1,
+      "position": [
+        -896,
+        -560
+      ],
+      "id": "5333989b-9374-41f1-9904-4fd67f1e3965",
+      "name": "Embeddings Ollama1",
+      "credentials": {
+        "ollamaApi": {
+          "id": "xHuYe0MDGOs9IpBW",
+          "name": "Local Ollama service"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "model": "ALIENTELLIGENCE/cybersecuritythreatanalysisv2:latest",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
+      "typeVersion": 1,
+      "position": [
+        -352,
+        -832
+      ],
+      "id": "4a8a1252-144e-4794-9425-3a4e4558c173",
+      "name": "Ollama Chat Model1",
+      "credentials": {
+        "ollamaApi": {
+          "id": "xHuYe0MDGOs9IpBW",
+          "name": "Local Ollama service"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        -1104,
+        -1168
+      ],
+      "id": "2aef4c79-0d97-45d7-854d-e7294573c8be",
+      "name": "When chat message received",
+      "webhookId": "88742961-136f-4af0-82a5-29bf9c635b20",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://crawl4ai-crawl4ai-1:11235/crawl",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"urls\": [\n\"https://www.bleepingcomputer.com/news/security/\"\n  ]\n}",
+        "options": {
+          "allowUnauthorizedCerts": true,
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "id": "a3551efd-5b18-45d2-bb31-421976e2c778",
+      "name": "HTTP Request4",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -3264,
+        -704
+      ],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "LCBQIYTCVTjkft7y",
+          "name": "Header Auth account"
+        },
+        "httpBearerAuth": {
+          "id": "v82x9PHMCOUZtn9L",
+          "name": "Bearer Auth account"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        -1024,
+        -944
+      ],
+      "id": "b983f0b5-4b3f-4b6c-8f47-6853894ff5b1",
+      "name": "Google Gemini Chat Model1",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "WFQq6DTFohrhYXuN",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "content": "## Web Crawler/Scraper\nEste nodo extrae data usando AI.",
+        "height": 576,
+        "width": 1040
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -3424,
+        -1456
+      ],
+      "id": "5a2c4ed5-eb0d-47fb-9c5c-f89aa05331dd",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "## Web Crawler/Scraper\nEste nodo extrae data usando libreria CRAWL4AI\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhttps://docs-crawl4ai-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc",
+        "height": 320,
+        "width": 496
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -3392,
+        -784
+      ],
+      "id": "c477bf2e-0537-4c8c-b76c-ccb706fef060",
+      "name": "Sticky Note1"
+    },
+    {
+      "parameters": {
+        "content": "## Embeddings (Incrustaciones Vectoriales)\nEste nodo convierte en vectores la data no estructurada",
+        "height": 704,
+        "width": 816
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -2336,
+        -1184
+      ],
+      "id": "e9c11cb2-bdba-4613-95b2-736adef0eeb0",
+      "name": "Sticky Note2"
+    },
+    {
+      "parameters": {
+        "content": "## Produccion de Cyber Threath Intelligence\nEste nodo obtiene Inteligencia a partir del contexto en la BD Vectorial",
+        "height": 880,
+        "width": 1360
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -1440,
+        -1248
+      ],
+      "id": "312c19d6-4885-41bb-9043-e39972ed2e67",
+      "name": "Sticky Note3"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Information Extractor1",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request3": {
+      "main": [
+        [
+          {
+            "node": "Information Extractor1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Information Extractor1": {
+      "main": [
+        []
+      ]
+    },
+    "Default Data Loader": {
+      "ai_document": [
+        [
+          {
+            "node": "Qdrant Vector Store",
+            "type": "ai_document",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Token Splitter": {
+      "ai_textSplitter": [
+        [
+          {
+            "node": "Default Data Loader",
+            "type": "ai_textSplitter",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings Ollama": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Qdrant Vector Store",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Answer questions with a vector store": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Qdrant Vector Store1": {
+      "ai_vectorStore": [
+        [
+          {
+            "node": "Answer questions with a vector store",
+            "type": "ai_vectorStore",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings Ollama1": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Qdrant Vector Store1",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ollama Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Answer questions with a vector store",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request4": {
+      "main": [
+        []
+      ]
+    },
+    "Google Gemini Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "e482b67b-1e5d-4ebd-a75d-4630e4316bea",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "558d88703fb65b2d0e44613bc35916258b0f0bf983c5d4730c00c424b77ca36a"
+  },
+  "id": "6TDoyc0CuxK4V51o",
+  "tags": []
+}
