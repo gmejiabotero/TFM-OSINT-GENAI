@@ -1,0 +1,842 @@
+[
+  {
+    "id": "1998470555670810643",
+    "source": "twitter",
+    "source_url": "https://x.com/CISACyber/status/1998470555670810643",
+    "ingest_timestamp": "2025-12-10T01:27:09.925Z",
+    "published_timestamp": "2025-12-09T19:11:24.000Z",
+    "title": null,
+    "text": "🛡️ We added RARLAB WinRAR path traversal vulnerability CVE-2025-6218 &amp; Microsoft Windows use after free vulnerability CVE-2025-62221 to our Known Exploited Vulnerabilities Catalog. Visit https://t.co/myxOwap1Tf &amp; apply mitigations to protect your org from cyberattacks. https://t.co/YICJDnTmdQ",
+    "summary": null,
+    "cves": [
+      "CVE-2025-6218",
+      "CVE-2025-62221"
+    ],
+    "indicators": [
+      {
+        "type": "cve",
+        "value": "CVE-2025-6218",
+        "confidence": 90
+      },
+      {
+        "type": "cve",
+        "value": "CVE-2025-62221",
+        "confidence": 90
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "CISA Cyber",
+      "id": "18066440",
+      "type": "user",
+      "profile_url": "https://x.com/CISACyber"
+    },
+    "references": [
+      "https://go.dhs.gov/Z3Q"
+    ],
+    "raw": {
+      "content": "🛡️ We added RARLAB WinRAR path traversal vulnerability CVE-2025-6218 &amp; Microsoft Windows use after free vulnerability CVE-2025-62221 to our Known Exploited Vulnerabilities Catalog. Visit https://t.co/myxOwap1Tf &amp; apply mitigations to protect your org from cyberattacks. https://t.co/YICJDnTmdQ"
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1998470555670810643"
+    }
+  },
+  {
+    "id": "1998181321999339938",
+    "source": "twitter",
+    "source_url": "https://x.com/Unit42_Intel/status/1998181321999339938",
+    "ingest_timestamp": "2025-12-10T01:27:09.925Z",
+    "published_timestamp": "2025-12-09T00:02:06.000Z",
+    "title": null,
+    "text": "A significant update to our Threat Brief on CVE-2025-55182 analyzes unique post-exploitation activity. This activity includes reconnaissance, deployment of cryptominers, the backdoor Noodle RAT, stealthy malware dropper SNOWLIGHT and more: https://t.co/JfOS15kpkC https://t.co/xaV7M4ZF2W",
+    "summary": null,
+    "cves": [
+      "CVE-2025-55182"
+    ],
+    "indicators": [
+      {
+        "type": "cve",
+        "value": "CVE-2025-55182",
+        "confidence": 100
+      }
+    ],
+    "ttps": [
+      "TA0001"
+    ],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "Unit 42",
+      "id": "4487645412",
+      "type": "user",
+      "profile_url": "https://x.com/Unit42_Intel"
+    },
+    "references": [
+      "https://bit.ly/48SQXKM"
+    ],
+    "raw": {
+      "content": "A significant update to our Threat Brief on CVE-2025-55182 analyzes unique post-exploitation activity. This activity includes reconnaissance, deployment of cryptominers, the backdoor Noodle RAT, stealthy malware dropper SNOWLIGHT and more: https://t.co/JfOS15kpkC https://t.co/xaV7M4ZF2W"
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1998181321999339938"
+    }
+  },
+  {
+    "id": "1998103558592376938",
+    "source": "twitter",
+    "source_url": "https://x.com/CISACyber/status/1998103558592376938",
+    "ingest_timestamp": "2025-12-10T01:27:09.926Z",
+    "published_timestamp": "2025-12-08T18:53:05.000Z",
+    "title": null,
+    "text": "🛡️We added D-Link routers and Array Networks vulnerabilities CVE-2022-37055 &amp; CVE-2025-66644 to our Known Exploited Vulnerabilities Catalog. Visit https://t.co/myxOwap1Tf &amp; apply mitigations to protect your org from cyberattacks. #Cybersecurity #InfoSec https://t.co/eFFWeGdTVJ",
+    "summary": null,
+    "cves": [
+      "CVE-2022-37055",
+      "CVE-2025-66644"
+    ],
+    "indicators": [
+      {
+        "type": "cve",
+        "value": "CVE-2022-37055",
+        "confidence": 90
+      },
+      {
+        "type": "cve",
+        "value": "CVE-2025-66644",
+        "confidence": 90
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "CISA Cyber",
+      "id": "18066440",
+      "type": "user",
+      "profile_url": "https://x.com/CISACyber"
+    },
+    "references": [
+      "https://go.dhs.gov/Z3Q"
+    ],
+    "raw": {
+      "content": "🛡️We added D-Link routers and Array Networks vulnerabilities CVE-2022-37055 &amp; CVE-2025-66644 to our Known Exploited Vulnerabilities Catalog. Visit https://t.co/myxOwap1Tf &amp; apply mitigations to protect your org from cyberattacks. #Cybersecurity #InfoSec https://t.co/eFFWeGdTVJ"
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1998103558592376938"
+    }
+  },
+  {
+    "id": "1998086826901246337",
+    "source": "twitter",
+    "source_url": "https://x.com/cyb3rops/status/1998086826901246337",
+    "ingest_timestamp": "2025-12-10T01:27:09.926Z",
+    "published_timestamp": "2025-12-08T17:46:36.000Z",
+    "title": null,
+    "text": "People keep asking if we “already have the IOCs” for this or that malware. \n\nWe usually don’t need them - we already detect the malware family and its behavior.\n\nI stopped adding static file hashes on purpose. It’s outdated thinking. One byte changes, one new AWS IP, and your whole detection collapses.\nIf that’s your detection model, you’re stuck in last decade. We build rules for methods and characteristics, not for single files that evaporate on recompile.",
+    "summary": null,
+    "cves": [],
+    "indicators": [
+      {
+        "type": "informational",
+        "value": "no_ioc_detected",
+        "confidence": 30
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "Florian Roth ⚡️",
+      "id": "1538299243",
+      "type": "user",
+      "profile_url": "https://x.com/cyb3rops"
+    },
+    "references": [],
+    "raw": {
+      "content": "People keep asking if we “already have the IOCs” for this or that malware. \n\nWe usually don’t need them - we already detect the malware family and its behavior.\n\nI stopped adding static file hashes on purpose. It’s outdated thinking. One byte changes, one new AWS IP, and your whole detection collapses.\nIf that’s your detection model, you’re stuck in last decade. We build rules for methods and characteristics, not for single files that evaporate on recompile."
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1998086826901246337"
+    }
+  },
+  {
+    "id": "1997256280126242926",
+    "source": "twitter",
+    "source_url": "https://x.com/cyb3rops/status/1997256280126242926",
+    "ingest_timestamp": "2025-12-10T01:27:09.926Z",
+    "published_timestamp": "2025-12-06T10:46:19.000Z",
+    "title": null,
+    "text": "We’ve been digging through the #React RCE mess for two days now, trying to get at least some visibility into what’s going on out there. None of this is easy to detect, and most signals vanish in memory before you can even look at them.\n\nMy teammate @_swachchhanda_  put together a pair of #Sigma rules that cover the one thing that reliably shows up when someone actually executes code on a Node.js server -> child processes. One rule for Linux, one for Windows. It’s not a silver bullet, just one of the few angles that makes sense right now.\n\nWe pushed all our #YARA and #Sigma signatures for the React RCE cases as well, and contributed the Sigma rules upstream:\n https://t.co/37MnloL5oV\n\nThis whole situation shows how much attack surface lives in places many of us didn’t think about before. I expect we’ll see more of this class of issues now that people realize what’s possible.",
+    "summary": null,
+    "cves": [],
+    "indicators": [
+      {
+        "type": "informational",
+        "value": "no_ioc_detected",
+        "confidence": 30
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "Florian Roth ⚡️",
+      "id": "1538299243",
+      "type": "user",
+      "profile_url": "https://x.com/cyb3rops"
+    },
+    "references": [
+      "https://github.com/SigmaHQ/sigma/pull/5795"
+    ],
+    "raw": {
+      "content": "We’ve been digging through the #React RCE mess for two days now, trying to get at least some visibility into what’s going on out there. None of this is easy to detect, and most signals vanish in memory before you can even look at them.\n\nMy teammate @_swachchhanda_  put together a pair of #Sigma rules that cover the one thing that reliably shows up when someone actually executes code on a Node.js server -> child processes. One rule for Linux, one for Windows. It’s not a silver bullet, just one of the few angles that makes sense right now.\n\nWe pushed all our #YARA and #Sigma signatures for the React RCE cases as well, and contributed the Sigma rules upstream:\n https://t.co/37MnloL5oV\n\nThis whole situation shows how much attack surface lives in places many of us didn’t think about before. I expect we’ll see more of this class of issues now that people realize what’s possible."
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1997256280126242926"
+    }
+  },
+  {
+    "id": "1996999034414723549",
+    "source": "twitter",
+    "source_url": "https://x.com/cyb3rops/status/1996999034414723549",
+    "ingest_timestamp": "2025-12-10T01:27:09.926Z",
+    "published_timestamp": "2025-12-05T17:44:06.000Z",
+    "title": null,
+    "text": "This pretty much sums up the situation: an in-memory (!) JavaScript-based (!) webshell gets implanted into a vulnerable React server with a single(!) POST request and leaves zero(!) trace in logs or on disk.\n\nSomeone used that POC, successfully injected the shell and still struggled to understand what they had just done.\n\nMeanwhile hundreds of people are running scanners, spraying malformed RSC payloads into every exposed instance. All of that ends up in memory. It’s impossible to tell who \"tested\" and who \"exploited\". The heap is just noise now.\n\nI’m off for dinner. Enjoy your day.",
+    "summary": null,
+    "cves": [],
+    "indicators": [
+      {
+        "type": "informational",
+        "value": "no_ioc_detected",
+        "confidence": 30
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "Florian Roth ⚡️",
+      "id": "1538299243",
+      "type": "user",
+      "profile_url": "https://x.com/cyb3rops"
+    },
+    "references": [],
+    "raw": {
+      "content": "This pretty much sums up the situation: an in-memory (!) JavaScript-based (!) webshell gets implanted into a vulnerable React server with a single(!) POST request and leaves zero(!) trace in logs or on disk.\n\nSomeone used that POC, successfully injected the shell and still struggled to understand what they had just done.\n\nMeanwhile hundreds of people are running scanners, spraying malformed RSC payloads into every exposed instance. All of that ends up in memory. It’s impossible to tell who \"tested\" and who \"exploited\". The heap is just noise now.\n\nI’m off for dinner. Enjoy your day."
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1996999034414723549"
+    }
+  },
+  {
+    "id": "1996994056153370860",
+    "source": "twitter",
+    "source_url": "https://x.com/cyb3rops/status/1996994056153370860",
+    "ingest_timestamp": "2025-12-10T01:27:09.926Z",
+    "published_timestamp": "2025-12-05T17:24:19.000Z",
+    "title": null,
+    "text": "It’s wild how little sticks around when someone hits a server with the #React RCE payload. All the interesting parts of the POST request live for a moment in memory, get decoded, executed (or rejected), and vanish. Nothing hits a log, nothing lands on disk.\n\nYou can scan process memory for patterns, sure, but you’ll mostly catch scanners, broken requests, bots, random noise. A clean “this was a successful exploit” signal isn’t really possible here. The only reliable detection is post-exploitation activity on the box.\n\nSuper fun vuln to hunt for… not 😅",
+    "summary": null,
+    "cves": [],
+    "indicators": [
+      {
+        "type": "informational",
+        "value": "no_ioc_detected",
+        "confidence": 30
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "Florian Roth ⚡️",
+      "id": "1538299243",
+      "type": "user",
+      "profile_url": "https://x.com/cyb3rops"
+    },
+    "references": [],
+    "raw": {
+      "content": "It’s wild how little sticks around when someone hits a server with the #React RCE payload. All the interesting parts of the POST request live for a moment in memory, get decoded, executed (or rejected), and vanish. Nothing hits a log, nothing lands on disk.\n\nYou can scan process memory for patterns, sure, but you’ll mostly catch scanners, broken requests, bots, random noise. A clean “this was a successful exploit” signal isn’t really possible here. The only reliable detection is post-exploitation activity on the box.\n\nSuper fun vuln to hunt for… not 😅"
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1996994056153370860"
+    }
+  },
+  {
+    "id": "1996963163682566406",
+    "source": "twitter",
+    "source_url": "https://x.com/CISACyber/status/1996963163682566406",
+    "ingest_timestamp": "2025-12-10T01:27:09.926Z",
+    "published_timestamp": "2025-12-05T15:21:34.000Z",
+    "title": null,
+    "text": "🛡️We added Meta React Server Components remote code execution vulnerability CVE-2025-55182 to our Known Exploited Vulnerabilities Catalog. Visit https://t.co/myxOwap1Tf &amp; apply mitigations to protect your org from cyberattacks. #Cybersecurity #InfoSec https://t.co/QozFI5xbes",
+    "summary": null,
+    "cves": [
+      "CVE-2025-55182"
+    ],
+    "indicators": [
+      {
+        "type": "cve",
+        "value": "CVE-2025-55182",
+        "confidence": 90
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "CISA Cyber",
+      "id": "18066440",
+      "type": "user",
+      "profile_url": "https://x.com/CISACyber"
+    },
+    "references": [
+      "https://go.dhs.gov/Z3Q"
+    ],
+    "raw": {
+      "content": "🛡️We added Meta React Server Components remote code execution vulnerability CVE-2025-55182 to our Known Exploited Vulnerabilities Catalog. Visit https://t.co/myxOwap1Tf &amp; apply mitigations to protect your org from cyberattacks. #Cybersecurity #InfoSec https://t.co/QozFI5xbes"
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1996963163682566406"
+    }
+  },
+  {
+    "id": "1996885490331799589",
+    "source": "twitter",
+    "source_url": "https://x.com/cyb3rops/status/1996885490331799589",
+    "ingest_timestamp": "2025-12-10T01:27:09.926Z",
+    "published_timestamp": "2025-12-05T10:12:55.000Z",
+    "title": null,
+    "text": "Another scanner for the React vulnerability\n\nhttps://t.co/Za6ngLmuhA https://t.co/3nn39CC1Qq",
+    "summary": null,
+    "cves": [],
+    "indicators": [
+      {
+        "type": "informational",
+        "value": "no_ioc_detected",
+        "confidence": 30
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "Florian Roth ⚡️",
+      "id": "1538299243",
+      "type": "user",
+      "profile_url": "https://x.com/cyb3rops"
+    },
+    "references": [
+      "https://github.com/Malayke/Next.js-RSC-RCE-Scanner-CVE-2025-66478"
+    ],
+    "raw": {
+      "content": "Another scanner for the React vulnerability\n\nhttps://t.co/Za6ngLmuhA https://t.co/3nn39CC1Qq"
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1996885490331799589"
+    }
+  },
+  {
+    "id": "1996679931179254016",
+    "source": "twitter",
+    "source_url": "https://x.com/Unit42_Intel/status/1996679931179254016",
+    "ingest_timestamp": "2025-12-10T01:27:09.927Z",
+    "published_timestamp": "2025-12-04T20:36:06.000Z",
+    "title": null,
+    "text": "We review two vulnerabilities affecting React (CVE-2025-55182) and Next.js (CVE-2025-66478), both with a CVSS score of 10.0. These vulns, in the React Server Components (RSC) Flight protocol, allow unauthenticated attackers to execute arbitrary code. https://t.co/JfOS15kpkC https://t.co/Ax8sv8YdMg",
+    "summary": null,
+    "cves": [
+      "CVE-2025-55182",
+      "CVE-2025-66478"
+    ],
+    "indicators": [
+      {
+        "type": "cve",
+        "value": "CVE-2025-55182",
+        "confidence": 90
+      },
+      {
+        "type": "cve",
+        "value": "CVE-2025-66478",
+        "confidence": 90
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "Unit 42",
+      "id": "4487645412",
+      "type": "user",
+      "profile_url": "https://x.com/Unit42_Intel"
+    },
+    "references": [
+      "https://bit.ly/48SQXKM"
+    ],
+    "raw": {
+      "content": "We review two vulnerabilities affecting React (CVE-2025-55182) and Next.js (CVE-2025-66478), both with a CVSS score of 10.0. These vulns, in the React Server Components (RSC) Flight protocol, allow unauthenticated attackers to execute arbitrary code. https://t.co/JfOS15kpkC https://t.co/Ax8sv8YdMg"
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1996679931179254016"
+    }
+  },
+  {
+    "id": "1996641218542162181",
+    "source": "twitter",
+    "source_url": "https://x.com/cyb3rops/status/1996641218542162181",
+    "ingest_timestamp": "2025-12-10T01:27:09.927Z",
+    "published_timestamp": "2025-12-04T18:02:16.000Z",
+    "title": null,
+    "text": "That's a helpful blog post about the React / Next.js vulnerabilities \n\nhttps://t.co/aCPPRPm8Iw\n\nContains a react-scanner \nhttps://t.co/OHut2g5MyZ\n\nby @SLCyberSec https://t.co/ARJhQOQLUH",
+    "summary": null,
+    "cves": [],
+    "indicators": [
+      {
+        "type": "informational",
+        "value": "no_ioc_detected",
+        "confidence": 30
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "Florian Roth ⚡️",
+      "id": "1538299243",
+      "type": "user",
+      "profile_url": "https://x.com/cyb3rops"
+    },
+    "references": [
+      "https://slcyber.io/research-center/high-fidelity-detection-mechanism-for-rsc-next-js-rce-cve-2025-55182-cve-2025-66478/",
+      "https://github.com/assetnote/react2shell-scanner"
+    ],
+    "raw": {
+      "content": "That's a helpful blog post about the React / Next.js vulnerabilities \n\nhttps://t.co/aCPPRPm8Iw\n\nContains a react-scanner \nhttps://t.co/OHut2g5MyZ\n\nby @SLCyberSec https://t.co/ARJhQOQLUH"
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1996641218542162181"
+    }
+  },
+  {
+    "id": "1996598565573992930",
+    "source": "twitter",
+    "source_url": "https://x.com/CISACyber/status/1996598565573992930",
+    "ingest_timestamp": "2025-12-10T01:27:09.927Z",
+    "published_timestamp": "2025-12-04T15:12:47.000Z",
+    "title": null,
+    "text": "🚨 PRC state-sponsored actors are actively using BRICKSTORM malware to establish long-term persistence, specifically targeting VMware vSphere platforms. Act now: hunt for intrusions and apply mitigations detailed in our 🆕 Malware Analysis Report: 🔗 https://t.co/04sauEWzVp https://t.co/l9kQEkrfX6",
+    "summary": null,
+    "cves": [],
+    "indicators": [
+      {
+        "type": "informational",
+        "value": "no_ioc_detected",
+        "confidence": 30
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "CISA Cyber",
+      "id": "18066440",
+      "type": "user",
+      "profile_url": "https://x.com/CISACyber"
+    },
+    "references": [
+      "https://www.cisa.gov/news-events/analysis-reports/ar25-338a"
+    ],
+    "raw": {
+      "content": "🚨 PRC state-sponsored actors are actively using BRICKSTORM malware to establish long-term persistence, specifically targeting VMware vSphere platforms. Act now: hunt for intrusions and apply mitigations detailed in our 🆕 Malware Analysis Report: 🔗 https://t.co/04sauEWzVp https://t.co/l9kQEkrfX6"
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1996598565573992930"
+    }
+  },
+  {
+    "id": "1996595351629763053",
+    "source": "twitter",
+    "source_url": "https://x.com/Mandiant/status/1996595351629763053",
+    "ingest_timestamp": "2025-12-10T01:27:09.927Z",
+    "published_timestamp": "2025-12-04T15:00:01.000Z",
+    "title": null,
+    "text": "New GTIG analysis reveals spyware vendor Intellexa is still going strong, responsible for 15 unique zero-days since 2021.\n\nWe discuss their exploit chain deploying sophisticated PREYHUNTER malware, plus a new delivery tactic: malicious ads. \n\nFull report: https://t.co/fXY3zx7oAi https://t.co/xOyfCq5rDN",
+    "summary": null,
+    "cves": [],
+    "indicators": [
+      {
+        "type": "informational",
+        "value": "no_ioc_detected",
+        "confidence": 30
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "Mandiant (part of Google Cloud)",
+      "id": "30680268",
+      "type": "user",
+      "profile_url": "https://x.com/Mandiant"
+    },
+    "references": [
+      "https://bit.ly/4pJioMJ"
+    ],
+    "raw": {
+      "content": "New GTIG analysis reveals spyware vendor Intellexa is still going strong, responsible for 15 unique zero-days since 2021.\n\nWe discuss their exploit chain deploying sophisticated PREYHUNTER malware, plus a new delivery tactic: malicious ads. \n\nFull report: https://t.co/fXY3zx7oAi https://t.co/xOyfCq5rDN"
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1996595351629763053"
+    }
+  },
+  {
+    "id": "1996363155237187909",
+    "source": "twitter",
+    "source_url": "https://x.com/Unit42_Intel/status/1996363155237187909",
+    "ingest_timestamp": "2025-12-10T01:27:09.927Z",
+    "published_timestamp": "2025-12-03T23:37:21.000Z",
+    "title": null,
+    "text": "Browser-update-themed lures are fueling a surge in #ClickFix activity. We've seen 10K-plus hits on sites that lead to ClickFix pages pushing a variety of malware types through #pastejacking. Details at https://t.co/jLHXBHpx60 https://t.co/mzXHbjBjjL",
+    "summary": null,
+    "cves": [],
+    "indicators": [
+      {
+        "type": "informational",
+        "value": "no_ioc_detected",
+        "confidence": 30
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "Unit 42",
+      "id": "4487645412",
+      "type": "user",
+      "profile_url": "https://x.com/Unit42_Intel"
+    },
+    "references": [
+      "https://bit.ly/4iyA4s6"
+    ],
+    "raw": {
+      "content": "Browser-update-themed lures are fueling a surge in #ClickFix activity. We've seen 10K-plus hits on sites that lead to ClickFix pages pushing a variety of malware types through #pastejacking. Details at https://t.co/jLHXBHpx60 https://t.co/mzXHbjBjjL"
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1996363155237187909"
+    }
+  },
+  {
+    "id": "1996295531610390588",
+    "source": "twitter",
+    "source_url": "https://x.com/CISACyber/status/1996295531610390588",
+    "ingest_timestamp": "2025-12-10T01:27:09.927Z",
+    "published_timestamp": "2025-12-03T19:08:38.000Z",
+    "title": null,
+    "text": "🛡️We added OpenPLC ScadaBR vulnerability CVE-2021-26828 to our Known Exploited Vulnerabilities Catalog. Visit https://t.co/myxOwap1Tf &amp; apply mitigations to protect your org from cyberattacks. #Cybersecurity #InfoSec https://t.co/cUimHeit92",
+    "summary": null,
+    "cves": [
+      "CVE-2021-26828"
+    ],
+    "indicators": [
+      {
+        "type": "cve",
+        "value": "CVE-2021-26828",
+        "confidence": 90
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "CISA Cyber",
+      "id": "18066440",
+      "type": "user",
+      "profile_url": "https://x.com/CISACyber"
+    },
+    "references": [
+      "https://go.dhs.gov/Z3Q"
+    ],
+    "raw": {
+      "content": "🛡️We added OpenPLC ScadaBR vulnerability CVE-2021-26828 to our Known Exploited Vulnerabilities Catalog. Visit https://t.co/myxOwap1Tf &amp; apply mitigations to protect your org from cyberattacks. #Cybersecurity #InfoSec https://t.co/cUimHeit92"
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1996295531610390588"
+    }
+  },
+  {
+    "id": "1996250877917597777",
+    "source": "twitter",
+    "source_url": "https://x.com/cyb3rops/status/1996250877917597777",
+    "ingest_timestamp": "2025-12-10T01:27:09.927Z",
+    "published_timestamp": "2025-12-03T16:11:12.000Z",
+    "title": null,
+    "text": "Critical Security Vulnerability in React Server Components\n\nCVE-2025-55182 and rated CVSS 10.0\n\nThe vulnerability is present in versions 19.0, 19.1.0, 19.1.1, and 19.2.0 of:\n\nreact-server-dom-webpack\nreact-server-dom-parcel\nreact-server-dom-turbopack\n\nhttps://t.co/AMlp6yMPSZ https://t.co/ELbKNFuhtG",
+    "summary": null,
+    "cves": [
+      "CVE-2025-55182"
+    ],
+    "indicators": [
+      {
+        "type": "cve",
+        "value": "CVE-2025-55182",
+        "confidence": 90
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "Florian Roth ⚡️",
+      "id": "1538299243",
+      "type": "user",
+      "profile_url": "https://x.com/cyb3rops"
+    },
+    "references": [
+      "https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components"
+    ],
+    "raw": {
+      "content": "Critical Security Vulnerability in React Server Components\n\nCVE-2025-55182 and rated CVSS 10.0\n\nThe vulnerability is present in versions 19.0, 19.1.0, 19.1.1, and 19.2.0 of:\n\nreact-server-dom-webpack\nreact-server-dom-parcel\nreact-server-dom-turbopack\n\nhttps://t.co/AMlp6yMPSZ https://t.co/ELbKNFuhtG"
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1996250877917597777"
+    }
+  },
+  {
+    "id": "1995930929286554016",
+    "source": "twitter",
+    "source_url": "https://x.com/CISACyber/status/1995930929286554016",
+    "ingest_timestamp": "2025-12-10T01:27:09.927Z",
+    "published_timestamp": "2025-12-02T18:59:50.000Z",
+    "title": null,
+    "text": "🛡️ We added Android framework vulnerabilities CVE-2025-48572 &amp; CVE-2025-48633 to our Known Exploited Vulnerabilities Catalog. Visit https://t.co/myxOwap1Tf &amp; apply mitigations to protect your org from cyberattacks. #Cybersecurity #InfoSec https://t.co/shAU5gIzHa",
+    "summary": null,
+    "cves": [
+      "CVE-2025-48572",
+      "CVE-2025-48633"
+    ],
+    "indicators": [
+      {
+        "type": "cve",
+        "value": "CVE-2025-48572",
+        "confidence": 90
+      },
+      {
+        "type": "cve",
+        "value": "CVE-2025-48633",
+        "confidence": 90
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "CISA Cyber",
+      "id": "18066440",
+      "type": "user",
+      "profile_url": "https://x.com/CISACyber"
+    },
+    "references": [
+      "https://go.dhs.gov/Z3Q"
+    ],
+    "raw": {
+      "content": "🛡️ We added Android framework vulnerabilities CVE-2025-48572 &amp; CVE-2025-48633 to our Known Exploited Vulnerabilities Catalog. Visit https://t.co/myxOwap1Tf &amp; apply mitigations to protect your org from cyberattacks. #Cybersecurity #InfoSec https://t.co/shAU5gIzHa"
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1995930929286554016"
+    }
+  },
+  {
+    "id": "1995910944653017599",
+    "source": "twitter",
+    "source_url": "https://x.com/cyb3rops/status/1995910944653017599",
+    "ingest_timestamp": "2025-12-10T01:27:09.928Z",
+    "published_timestamp": "2025-12-02T17:40:26.000Z",
+    "title": null,
+    "text": "\"How to defend against AI powered attacks? \nHow to defend against ransomware attacks? \nHow to defend against APT attacks? \nHow to defend against cyber attacks? \"\n\nOver the years we’ve seen it all.\nThere’s no real difference when it comes to protecting your org from these attacks.\n\nIt’s always the same tune: patch, separate, filter, harden, MFA\n\nIt may be a new threat, but the countermeasures that work are always the same.",
+    "summary": null,
+    "cves": [],
+    "indicators": [
+      {
+        "type": "informational",
+        "value": "no_ioc_detected",
+        "confidence": 100
+      }
+    ],
+    "ttps": [
+      "TA0040",
+      "TA0010"
+    ],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "Florian Roth ⚡️",
+      "id": "1538299243",
+      "type": "user",
+      "profile_url": "https://x.com/cyb3rops"
+    },
+    "references": [],
+    "raw": {
+      "content": "\"How to defend against AI powered attacks? \nHow to defend against ransomware attacks? \nHow to defend against APT attacks? \nHow to defend against cyber attacks? \"\n\nOver the years we’ve seen it all.\nThere’s no real difference when it comes to protecting your org from these attacks.\n\nIt’s always the same tune: patch, separate, filter, harden, MFA\n\nIt may be a new threat, but the countermeasures that work are always the same."
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1995910944653017599"
+    }
+  },
+  {
+    "id": "1995474282214773181",
+    "source": "twitter",
+    "source_url": "https://x.com/cyb3rops/status/1995474282214773181",
+    "ingest_timestamp": "2025-12-10T01:27:09.928Z",
+    "published_timestamp": "2025-12-01T12:45:17.000Z",
+    "title": null,
+    "text": "Glassworm's resurgence | by @secureannex @tuckner \n\n\"we've identified and tracked an unprecedented 23 extensions which copy other popular extensions, update after publishing with malware, manipulate download counts, and use KNOWN attack signatures which have been in use for months\"\n\nhttps://t.co/ur8kzHXTaS",
+    "summary": null,
+    "cves": [],
+    "indicators": [
+      {
+        "type": "informational",
+        "value": "no_ioc_detected",
+        "confidence": 30
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "Florian Roth ⚡️",
+      "id": "1538299243",
+      "type": "user",
+      "profile_url": "https://x.com/cyb3rops"
+    },
+    "references": [
+      "https://secureannex.com/blog/glassworm-continued/"
+    ],
+    "raw": {
+      "content": "Glassworm's resurgence | by @secureannex @tuckner \n\n\"we've identified and tracked an unprecedented 23 extensions which copy other popular extensions, update after publishing with malware, manipulate download counts, and use KNOWN attack signatures which have been in use for months\"\n\nhttps://t.co/ur8kzHXTaS"
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1995474282214773181"
+    }
+  },
+  {
+    "id": "1994478182041285112",
+    "source": "twitter",
+    "source_url": "https://x.com/CISACyber/status/1994478182041285112",
+    "ingest_timestamp": "2025-12-10T01:27:09.928Z",
+    "published_timestamp": "2025-11-28T18:47:08.000Z",
+    "title": null,
+    "text": "🛡️We added OpenPLC ScadaBR cross-site scripting vulnerability CVE-2021-26829 to our Known Exploited Vulnerabilities Catalog. Visit https://t.co/myxOwap1Tf &amp; apply mitigations to protect your org from cyberattacks. #Cybersecurity #InfoSec https://t.co/opqcQ6rWSL",
+    "summary": null,
+    "cves": [
+      "CVE-2021-26829"
+    ],
+    "indicators": [
+      {
+        "type": "cve",
+        "value": "CVE-2021-26829",
+        "confidence": 90
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "twitter"
+    ],
+    "author": {
+      "name": "CISA Cyber",
+      "id": "18066440",
+      "type": "user",
+      "profile_url": "https://x.com/CISACyber"
+    },
+    "references": [
+      "https://go.dhs.gov/Z3Q"
+    ],
+    "raw": {
+      "content": "🛡️We added OpenPLC ScadaBR cross-site scripting vulnerability CVE-2021-26829 to our Known Exploited Vulnerabilities Catalog. Visit https://t.co/myxOwap1Tf &amp; apply mitigations to protect your org from cyberattacks. #Cybersecurity #InfoSec https://t.co/opqcQ6rWSL"
+    },
+    "provenance": {
+      "ingested_from_file": "TWITTER_Extract.json",
+      "original_record_id": "1994478182041285112"
+    }
+  }
+]
