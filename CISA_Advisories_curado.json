@@ -1,0 +1,461 @@
+[
+  {
+    "id": "cisa::d68e39bd-fb46-4bda-a6ab-e3ffbf801081",
+    "source": "cisa",
+    "source_url": "https://www.cisa.gov/news-events/alerts/2025/11/14/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "ingest_timestamp": "2025-12-10T01:42:15.203Z",
+    "published_timestamp": "2025-12-10T01:42:15.203Z",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "text": "# CISA Adds One Known Exploited Vulnerability to Catalog\nKnown Exploited Vulnerabilities (KEV) Catalog\n* CVE-2025-64446(link is external)\")Fortinet FortiWeb Path Traversal Vulnerability\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities\nBOD 22-01 Fact Sheet\nKEV Catalog vulnerabilities\nspecified criteria",
+    "summary": "# CISA Adds One Known Exploited Vulnerability to Catalog",
+    "cves": [
+      "CVE-2025-64446"
+    ],
+    "indicators": [
+      {
+        "type": "cve",
+        "value": "CVE-2025-64446",
+        "confidence": 95
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "vulnerability",
+      "exploit",
+      "kev"
+    ],
+    "author": {
+      "name": "Cybersecurity and Infrastructure Security Agency",
+      "id": "CISA",
+      "type": "agency",
+      "profile_url": "https://www.cisa.gov/"
+    },
+    "references": [
+      "https://**"
+    ],
+    "raw": {
+      "content": "An official website of the United States government\n**Official websites use .gov**  \nA**.gov** website belongs to an official government organization in the United States.\nLock\nA locked padlock\n**Secure .gov websites use HTTPS**  \nA**lock**(LockA locked padlock) or**https://** means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.\n[Critical Infrastructure Security and Resilience](https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience)\n[Election Security](https://www.cisa.gov/topics/election-security)\n[Information and Communications Technology Supply Chain Security](https://www.cisa.gov/topics/information-communications-technology-supply-chain-security)\n[Physical Security](https://www.cisa.gov/topics/physical-security)\n[Request a CISA Speaker](https://www.cisa.gov/news-events/request-speaker)\n[CISA Conferences](https://www.cisa.gov/cisa-conferences)\n[CISA Live!](https://www.cisa.gov/cisa-live)\n[Doing Business with CISA](https://www.cisa.gov/doing-business-cisa)\n[CISA GitHub](https://www.cisa.gov/cisa-github)\n[CISA Central](https://www.cisa.gov/cisa-central)\n* CISA Adds One Known Exploited Vulnerability to Catalog\n# CISA Adds One Known Exploited Vulnerability to Catalog\n_Known Exploited Vulnerabilities (KEV) Catalog_\n* [_CVE-2025-64446_(link is external)](https://www.cve.org/CVERecord?id=CVE-2025-64446 \"CVE-2025-64446 \\(opens in a new window\\)\")Fortinet FortiWeb Path Traversal Vulnerability\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\n_Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities_\n_BOD 22-01 Fact Sheet_\n_KEV Catalog vulnerabilities_\n_specified criteria_\n## Please share your thoughts\n[Cybersecurity & Infrastructure Security Agency](https://www.cisa.gov/ \"Go to the Cybersecurity & Infrastructure Security Agency homepage\")\nCISA Central[1-844-Say-CISA](tel:1-844-Say-CISA)contact@cisa.dhs.gov\nAn official website of the U.S. Department of Homeland Security\n* [About CISA](https://www.cisa.gov/about \"About CISA\")\n* [Website Feedback](https://www.cisa.gov/forms/feedback \"Website Feedback\")\n"
+    },
+    "provenance": {
+      "ingested_from_file": "CISA_Markdown.json",
+      "original_record_id": "https://www.cisa.gov/news-events/alerts/2025/11/14/cisa-adds-one-known-exploited-vulnerability-catalog"
+    }
+  },
+  {
+    "id": "cisa::c0efe6fb-d6be-46e7-99d3-a6bc6130832e",
+    "source": "cisa",
+    "source_url": "https://www.cisa.gov/news-events/alerts/2025/11/13/cisa-releases-18-industrial-control-systems-advisories",
+    "ingest_timestamp": "2025-12-10T01:42:15.206Z",
+    "published_timestamp": "2025-12-10T01:42:15.206Z",
+    "title": "CISA Releases 18 Industrial Control Systems Advisories",
+    "text": "# CISA Releases 18 Industrial Control Systems Advisories\nRelease Date\nIndustrial Control System Vulnerabilities,Industrial Control Systems\nCISA released 18 Industrial Control Systems (ICS) Advisories. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nBrightpick Mission Control / Internal Logic Control\nGeneral Industrial Controls Lynx+ Gateway\nFesto Controller CECC-S,-LK,-D Family Firmware (Update A)\n \nCISA encourages users and administrators to review newly released ICS Advisories for technical details and mitigations.\nTopics :Industrial Control System Vulnerabilities,Industrial Control Systems",
+    "summary": "# CISA Releases 18 Industrial Control Systems Advisories",
+    "cves": [],
+    "indicators": [
+      {
+        "type": "informational",
+        "value": "context",
+        "confidence": 10
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "exploit",
+      "ics",
+      "patching"
+    ],
+    "author": {
+      "name": "Cybersecurity and Infrastructure Security Agency",
+      "id": "CISA",
+      "type": "agency",
+      "profile_url": "https://www.cisa.gov/"
+    },
+    "references": [
+      "https://**"
+    ],
+    "raw": {
+      "content": "An official website of the United States government  \n**Official websites use .gov**  \nA**.gov** website belongs to an official government organization in the United States.\nLock\nA locked padlock\n**Secure .gov websites use HTTPS**  \nA**lock**(LockA locked padlock) or**https://** means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.\n[Cyber Threats and Advisories](https://www.cisa.gov/topics/cyber-threats-and-advisories)\n[Critical Infrastructure Security and Resilience](https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience)\n[Election Security](https://www.cisa.gov/topics/election-security)\n[Industrial Control Systems](https://www.cisa.gov/topics/industrial-control-systems)\n[Information and Communications Technology Supply Chain Security](https://www.cisa.gov/topics/information-communications-technology-supply-chain-security)\n[Physical Security](https://www.cisa.gov/topics/physical-security)\n[Cybersecurity Alerts & Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories)\n[Request a CISA Speaker](https://www.cisa.gov/news-events/request-speaker)\n[CISA Conferences](https://www.cisa.gov/cisa-conferences)\n[CISA Live!](https://www.cisa.gov/cisa-live)\n[Doing Business with CISA](https://www.cisa.gov/doing-business-cisa)\n[CISA GitHub](https://www.cisa.gov/cisa-github)\n[CISA Central](https://www.cisa.gov/cisa-central)\n* [Cybersecurity Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories)\n* CISA Releases 18 Industrial Control Systems Advisories\n# CISA Releases 18 Industrial Control Systems Advisories\nRelease Date\n[Industrial Control System Vulnerabilities](https://www.cisa.gov/topics/industrial-control-systems/industrial-control-system-vulnerabilities),[Industrial Control Systems](https://www.cisa.gov/topics/industrial-control-systems)\nCISA released 18 Industrial Control Systems (ICS) Advisories. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\n_Brightpick Mission Control / Internal Logic Control_\n_General Industrial Controls Lynx+ Gateway_\n_Festo Controller CECC-S,-LK,-D Family Firmware (Update A)_\n  \nCISA encourages users and administrators to review newly released ICS Advisories for technical details and mitigations.\n**Topics** :[Industrial Control System Vulnerabilities](https://www.cisa.gov/topics/industrial-control-systems/industrial-control-system-vulnerabilities),[Industrial Control Systems](https://www.cisa.gov/topics/industrial-control-systems)\n## Please share your thoughts\n## Related Advisories\n### [CISA Releases Three Industrial Control Systems Advisories](https://www.cisa.gov/news-events/alerts/2025/12/09/cisa-releases-three-industrial-control-systems-advisories)\n### [CISA Releases Nine Industrial Control Systems Advisories](https://www.cisa.gov/news-events/alerts/2025/12/04/cisa-releases-nine-industrial-control-systems-advisories)\n### [CISA, Australia, and Partners Author Joint Guidance on Securely Integrating Artificial Intelligence in Operational Technology](https://www.cisa.gov/news-events/alerts/2025/12/03/cisa-australia-and-partners-author-joint-guidance-securely-integrating-artificial-intelligence)\n### [CISA Releases Five Industrial Control Systems Advisories](https://www.cisa.gov/news-events/alerts/2025/12/02/cisa-releases-five-industrial-control-systems-advisories)\n[Cybersecurity & Infrastructure Security Agency](https://www.cisa.gov/ \"Go to the Cybersecurity & Infrastructure Security Agency homepage\")\nCISA Central[1-844-Say-CISA](tel:1-844-Say-CISA)contact@cisa.dhs.gov\nAn official website of the U.S. Department of Homeland Security\n* [About CISA](https://www.cisa.gov/about \"About CISA\")\n* [Website Feedback](https://www.cisa.gov/forms/feedback \"Website Feedback\")\n"
+    },
+    "provenance": {
+      "ingested_from_file": "CISA_Markdown.json",
+      "original_record_id": "https://www.cisa.gov/news-events/alerts/2025/11/13/cisa-releases-18-industrial-control-systems-advisories"
+    }
+  },
+  {
+    "id": "cisa::4fdee07c-c82a-4130-a0bf-a7918b01723a",
+    "source": "cisa",
+    "source_url": "https://www.cisa.gov/news-events/alerts/2025/11/13/cisa-and-partners-release-advisory-update-akira-ransomware",
+    "ingest_timestamp": "2025-12-10T01:42:15.207Z",
+    "published_timestamp": "2025-12-10T01:42:15.207Z",
+    "title": "CISA and Partners Release Advisory Update on Akira Ransomware",
+    "text": "# CISA and Partners Release Advisory Update on Akira Ransomware\nRelease Date\nRead full advisory text\nToday, Cybersecurity and Infrastructure Security Agency (CISA), in collaboration with the Federal Bureau of Investigation, Department of Defense Cyber Crime Center, Department of Health and Human Services, and international partners, released an updated joint Cybersecurity Advisory,#StopRansomware: Akira Ransomware, to provide network defenders with the latest indicators of compromise, tactics, techniques, and procedures, and detection methods associated with Akira ransomware activity.\nThis advisory reflects new findings as of Nov. 13, 2025, highlighting Akira ransomware’s evolution and continued threat to critical infrastructure sectors. Akira ransomware threat actors, associated with groups such as Storm-1567, Howling Scorpius, Punk Spider, and Gold Sahara, have expanded their capabilities, targeting small and medium-sized businesses as well as larger organizations across sectors including Manufacturing, Educational Institutions, Information Technology, Healthcare, Financial, and Food and Agriculture.\n* Discovery : Threat actors use command line techniques to accomplish network and domain discovery.\n* Lateral Movement : Threat actors use remote access tools and protocols like RDP, SSH, and steal Kerberos authentication tickets to move within networks.\n* Command and Control : Threat actors use Ngrok to establish encrypted sessions, SystemBC malware as a remote access trojan, and STONETOP malware to deploy Akira payloads.\n* Exfiltration and Impact : Threat actors use protocols such as FTP, SFTP, and cloud services to exfiltrate data.\n* Encryption : Threat actors use a new Akirav2 ransomware variant that enables faster encryption speeds and further inhibits system recovery.\nCISA and its partners strongly encourage organizations to apply patches for known vulnerabilities, especially those affecting VPN products and backup servers, and enforce multifactor authentication for all remote access services. Organizations should monitor unauthorized domain account creation and unusual network activity while deploying endpoint detection and response solutions to enhance security.",
+    "summary": "# CISA and Partners Release Advisory Update on Akira Ransomware",
+    "cves": [],
+    "indicators": [
+      {
+        "type": "cti",
+        "value": "threat-intel",
+        "confidence": 100
+      }
+    ],
+    "ttps": [
+      "T1486",
+      "T1059",
+      "T1569",
+      "T1027",
+      "T1041",
+      "T1078",
+      "T1047"
+    ],
+    "tags": [
+      "osint",
+      "threat",
+      "ransomware",
+      "malware",
+      "ics",
+      "patching"
+    ],
+    "author": {
+      "name": "Cybersecurity and Infrastructure Security Agency",
+      "id": "CISA",
+      "type": "agency",
+      "profile_url": "https://www.cisa.gov/"
+    },
+    "references": [
+      "https://**"
+    ],
+    "raw": {
+      "content": "An official website of the United States government  \n**Official websites use .gov**  \nA**.gov** website belongs to an official government organization in the United States.\nLock\nA locked padlock\n**Secure .gov websites use HTTPS**  \nA**lock**(LockA locked padlock) or**https://** means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.\n[Cyber Threats and Advisories](https://www.cisa.gov/topics/cyber-threats-and-advisories)\n[Critical Infrastructure Security and Resilience](https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience)\n[Election Security](https://www.cisa.gov/topics/election-security)\n[Information and Communications Technology Supply Chain Security](https://www.cisa.gov/topics/information-communications-technology-supply-chain-security)\n[Physical Security](https://www.cisa.gov/topics/physical-security)\n[Cybersecurity Alerts & Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories)\n[Request a CISA Speaker](https://www.cisa.gov/news-events/request-speaker)\n[CISA Conferences](https://www.cisa.gov/cisa-conferences)\n[CISA Live!](https://www.cisa.gov/cisa-live)\n[Doing Business with CISA](https://www.cisa.gov/doing-business-cisa)\n[CISA GitHub](https://www.cisa.gov/cisa-github)\n[CISA Central](https://www.cisa.gov/cisa-central)\n* [Cybersecurity Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories)\n* CISA and Partners Release Advisory Update on Akira Ransomware\n# CISA and Partners Release Advisory Update on Akira Ransomware\nRelease Date\n[Read full advisory text](https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a)\nToday, Cybersecurity and Infrastructure Security Agency (CISA), in collaboration with the Federal Bureau of Investigation, Department of Defense Cyber Crime Center, Department of Health and Human Services, and international partners, released an updated joint Cybersecurity Advisory,[#StopRansomware: Akira Ransomware](https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a \"#StopRansomware: Akira Ransomware\"), to provide network defenders with the latest indicators of compromise, tactics, techniques, and procedures, and detection methods associated with Akira ransomware activity.\nThis advisory reflects new findings as of Nov. 13, 2025, highlighting Akira ransomware’s evolution and continued threat to critical infrastructure sectors. Akira ransomware threat actors, associated with groups such as Storm-1567, Howling Scorpius, Punk Spider, and Gold Sahara, have expanded their capabilities, targeting small and medium-sized businesses as well as larger organizations across sectors including Manufacturing, Educational Institutions, Information Technology, Healthcare, Financial, and Food and Agriculture.\n* **Discovery** : Threat actors use command line techniques to accomplish network and domain discovery.\n* **Lateral Movement** : Threat actors use remote access tools and protocols like RDP, SSH, and steal Kerberos authentication tickets to move within networks.\n* **Command and Control** : Threat actors use Ngrok to establish encrypted sessions, SystemBC malware as a remote access trojan, and STONETOP malware to deploy Akira payloads.\n* **Exfiltration and Impact** : Threat actors use protocols such as FTP, SFTP, and cloud services to exfiltrate data.\n* **Encryption** : Threat actors use a new Akira_v2 ransomware variant that enables faster encryption speeds and further inhibits system recovery.\nCISA and its partners strongly encourage organizations to apply patches for known vulnerabilities, especially those affecting VPN products and backup servers, and enforce multifactor authentication for all remote access services. Organizations should monitor unauthorized domain account creation and unusual network activity while deploying endpoint detection and response solutions to enhance security.\n## Please share your thoughts\nWe recently updated our anonymous[product survey](https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_9n4TtB8uttUPaM6?product=https://www.cisa.gov/news-events/alerts/2025/11/13/cisa-and-partners-release-advisory-update-akira-ransomware); we welcome your feedback.\n[Cybersecurity & Infrastructure Security Agency](https://www.cisa.gov/ \"Go to the Cybersecurity & Infrastructure Security Agency homepage\")\nCISA Central[1-844-Say-CISA](tel:1-844-Say-CISA)contact@cisa.dhs.gov\nAn official website of the U.S. Department of Homeland Security\n* [About CISA](https://www.cisa.gov/about \"About CISA\")\n* [Website Feedback](https://www.cisa.gov/forms/feedback \"Website Feedback\")\n"
+    },
+    "provenance": {
+      "ingested_from_file": "CISA_Markdown.json",
+      "original_record_id": "https://www.cisa.gov/news-events/alerts/2025/11/13/cisa-and-partners-release-advisory-update-akira-ransomware"
+    }
+  },
+  {
+    "id": "cisa::5cd52644-31ea-4415-95ec-5a8b13653c5c",
+    "source": "cisa",
+    "source_url": "https://www.cisa.gov/news-events/alerts/2025/11/12/update-implementation-guidance-emergency-directive-cisco-asa-and-firepower-device-vulnerabilities",
+    "ingest_timestamp": "2025-12-10T01:42:15.207Z",
+    "published_timestamp": "2025-12-10T01:42:15.207Z",
+    "title": "Update: Implementation Guidance for Emergency Directive on Cisco ASA and Firepower Device Vulnerabilities",
+    "text": "# Update: Implementation Guidance for Emergency Directive on Cisco ASA and Firepower Device Vulnerabilities\nEmergency Cisco Directive 25-03 Implementation Guidance\nEmergency Directive 25-03: Identify and Mitigate Potential Compromise of Cisco Devices\nrecommends additional actions\nThe implementation guidance provides information on the minimum software versions that address these vulnerabilities and direct federal agencies to conduct corrective patching measures on devices that are not compliant with these requirements. CISA is aware of multiple organizations that believed they had applied the necessary updates but had not in fact updated to the minimum software version. CISA recommends all organizations verify the correct updates are applied. For agencies with ASA or Firepower devices not yet updated to the necessary software versions or devices that were updated after September 26, 2025, CISA recommends additional actionsto mitigate against ongoing and new threat activity. CISA urges all agencies with ASAs and Firepower devices to followthis guidance.\nEmergency Directive 25-03 Implementation Guidance\nTemporary Risk Mitigation Guidance for Agencies in the Process of ED 25-03 Compliance\nRayInitiator",
+    "summary": "# Update: Implementation Guidance for Emergency Directive on Cisco ASA and Firepower Device Vulnerabilities",
+    "cves": [],
+    "indicators": [
+      {
+        "type": "informational",
+        "value": "context",
+        "confidence": 10
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "patching"
+    ],
+    "author": {
+      "name": "Cybersecurity and Infrastructure Security Agency",
+      "id": "CISA",
+      "type": "agency",
+      "profile_url": "https://www.cisa.gov/"
+    },
+    "references": [
+      "https://**"
+    ],
+    "raw": {
+      "content": "An official website of the United States government  \n**Official websites use .gov**  \nA**.gov** website belongs to an official government organization in the United States.\nLock\nA locked padlock\n**Secure .gov websites use HTTPS**  \nA**lock**(LockA locked padlock) or**https://** means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.\n[Critical Infrastructure Security and Resilience](https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience)\n[Election Security](https://www.cisa.gov/topics/election-security)\n[Emergency Communications](https://www.cisa.gov/topics/emergency-communications)\n[Information and Communications Technology Supply Chain Security](https://www.cisa.gov/topics/information-communications-technology-supply-chain-security)\n[Physical Security](https://www.cisa.gov/topics/physical-security)\n[Directives](https://www.cisa.gov/news-events/directives)\n[Request a CISA Speaker](https://www.cisa.gov/news-events/request-speaker)\n[CISA Conferences](https://www.cisa.gov/cisa-conferences)\n[CISA Live!](https://www.cisa.gov/cisa-live)\n[Doing Business with CISA](https://www.cisa.gov/doing-business-cisa)\n[CISA GitHub](https://www.cisa.gov/cisa-github)\n[CISA Central](https://www.cisa.gov/cisa-central)\n* Update: Implementation Guidance for Emergency Directive on Cisco ASA and Firepower Device Vulnerabilities\n# Update: Implementation Guidance for Emergency Directive on Cisco ASA and Firepower Device Vulnerabilities\n_Emergency Cisco Directive 25-03 Implementation Guidance_\n_Emergency Directive 25-03: Identify and Mitigate Potential Compromise of Cisco Devices_\n_recommends additional actions_\nThe implementation guidance provides information on the minimum software versions that address these vulnerabilities and direct federal agencies to conduct corrective patching measures on devices that are not compliant with these requirements. CISA is aware of multiple organizations that believed they had applied the necessary updates but had not in fact updated to the minimum software version. CISA recommends all organizations verify the correct updates are applied. For agencies with ASA or Firepower devices not yet updated to the necessary software versions or devices that were updated after September 26, 2025, CISA[ _recommends additional actions_](https://www.cisa.gov/node/24167)to mitigate against ongoing and new threat activity. CISA urges all agencies with ASAs and Firepower devices to follow[this guidance](https://www.cisa.gov/temporary-risk-mitigation-guidance-agencies-process-ed-25-03-compliance \"this guidance\").\n_Emergency Directive 25-03 Implementation Guidance_\n_Temporary Risk Mitigation Guidance for Agencies in the Process of ED 25-03 Compliance_\n_RayInitiator_\n## Please share your thoughts\n[Cybersecurity & Infrastructure Security Agency](https://www.cisa.gov/ \"Go to the Cybersecurity & Infrastructure Security Agency homepage\")\nCISA Central[1-844-Say-CISA](tel:1-844-Say-CISA)contact@cisa.dhs.gov\nAn official website of the U.S. Department of Homeland Security\n* [About CISA](https://www.cisa.gov/about \"About CISA\")\n* [Website Feedback](https://www.cisa.gov/forms/feedback \"Website Feedback\")\n"
+    },
+    "provenance": {
+      "ingested_from_file": "CISA_Markdown.json",
+      "original_record_id": "https://www.cisa.gov/news-events/alerts/2025/11/12/update-implementation-guidance-emergency-directive-cisco-asa-and-firepower-device-vulnerabilities"
+    }
+  },
+  {
+    "id": "cisa::1ac527df-3d38-4fd3-a504-f974f6d106bb",
+    "source": "cisa",
+    "source_url": "https://www.cisa.gov/news-events/alerts/2025/11/12/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+    "ingest_timestamp": "2025-12-10T01:42:15.208Z",
+    "published_timestamp": "2025-12-10T01:42:15.208Z",
+    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "text": "# CISA Adds Three Known Exploited Vulnerabilities to Catalog\nKnown Exploited Vulnerabilities (KEV) Catalog\n* CVE-2025-9242(link is external)\")WatchGuard Firebox Out-of-Bounds Write Vulnerability\n* CVE-2025-12480(link is external)\")Gladinet Triofox Improper Access Control Vulnerability\n* CVE-2025-62215(link is external)\")Microsoft Windows Race Condition Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities\nBOD 22-01 Fact Sheet\nKEV Catalog vulnerabilities\nspecified criteria",
+    "summary": "# CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "cves": [
+      "CVE-2025-9242",
+      "CVE-2025-12480",
+      "CVE-2025-62215"
+    ],
+    "indicators": [
+      {
+        "type": "cve",
+        "value": "CVE-2025-9242",
+        "confidence": 95
+      },
+      {
+        "type": "cve",
+        "value": "CVE-2025-12480",
+        "confidence": 95
+      },
+      {
+        "type": "cve",
+        "value": "CVE-2025-62215",
+        "confidence": 95
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "vulnerability",
+      "exploit",
+      "kev"
+    ],
+    "author": {
+      "name": "Cybersecurity and Infrastructure Security Agency",
+      "id": "CISA",
+      "type": "agency",
+      "profile_url": "https://www.cisa.gov/"
+    },
+    "references": [
+      "https://**"
+    ],
+    "raw": {
+      "content": "An official website of the United States government  \n**Official websites use .gov**  \nA**.gov** website belongs to an official government organization in the United States.\nLock\nA locked padlock\n**Secure .gov websites use HTTPS**  \nA**lock**(LockA locked padlock) or**https://** means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.\n[Critical Infrastructure Security and Resilience](https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience)\n[Election Security](https://www.cisa.gov/topics/election-security)\n[Information and Communications Technology Supply Chain Security](https://www.cisa.gov/topics/information-communications-technology-supply-chain-security)\n[Physical Security](https://www.cisa.gov/topics/physical-security)\n[Request a CISA Speaker](https://www.cisa.gov/news-events/request-speaker)\n[CISA Conferences](https://www.cisa.gov/cisa-conferences)\n[CISA Live!](https://www.cisa.gov/cisa-live)\n[Doing Business with CISA](https://www.cisa.gov/doing-business-cisa)\n[CISA GitHub](https://www.cisa.gov/cisa-github)\n[CISA Central](https://www.cisa.gov/cisa-central)\n* CISA Adds Three Known Exploited Vulnerabilities to Catalog\n# CISA Adds Three Known Exploited Vulnerabilities to Catalog\n_Known Exploited Vulnerabilities (KEV) Catalog_\n* [_CVE-2025-9242_(link is external)](https://www.cve.org/CVERecord?id=CVE-2025-9242 \"CVE-2025-9242 \\(opens in a new window\\)\")WatchGuard Firebox Out-of-Bounds Write Vulnerability\n* [_CVE-2025-12480_(link is external)](https://www.cve.org/CVERecord?id=CVE-2025-12480 \"CVE-2025-12480 \\(opens in a new window\\)\")Gladinet Triofox Improper Access Control Vulnerability\n* [_CVE-2025-62215_(link is external)](https://www.cve.org/CVERecord?id=CVE-2025-62215 \"CVE-2025-62215 \\(opens in a new window\\)\")Microsoft Windows Race Condition Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\n_Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities_\n_BOD 22-01 Fact Sheet_\n_KEV Catalog vulnerabilities_\n_specified criteria_\n## Please share your thoughts\n[Cybersecurity & Infrastructure Security Agency](https://www.cisa.gov/ \"Go to the Cybersecurity & Infrastructure Security Agency homepage\")\nCISA Central[1-844-Say-CISA](tel:1-844-Say-CISA)contact@cisa.dhs.gov\nAn official website of the U.S. Department of Homeland Security\n* [About CISA](https://www.cisa.gov/about \"About CISA\")\n* [Website Feedback](https://www.cisa.gov/forms/feedback \"Website Feedback\")\n"
+    },
+    "provenance": {
+      "ingested_from_file": "CISA_Markdown.json",
+      "original_record_id": "https://www.cisa.gov/news-events/alerts/2025/11/12/cisa-adds-three-known-exploited-vulnerabilities-catalog"
+    }
+  },
+  {
+    "id": "cisa::1a92305b-d2ca-492f-9e8e-9c38048c5cf7",
+    "source": "cisa",
+    "source_url": "https://www.cisa.gov/news-events/alerts/2025/11/10/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "ingest_timestamp": "2025-12-10T01:42:15.208Z",
+    "published_timestamp": "2025-12-10T01:42:15.208Z",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "text": "# CISA Adds One Known Exploited Vulnerability to Catalog\nCISA has added one new vulnerability to itsKnown Exploited Vulnerabilities (KEV) Catalog Catalog\"), based on evidence of active exploitation.\n* CVE-2025-21042(link is external)\")Samsung Mobile Devices Out-of-Bounds Write Vulnerability\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities\")established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See theBOD 22-01 Fact Sheetfor more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation ofKEV Catalog vulnerabilitiesas part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet thespecified criteria.",
+    "summary": "# CISA Adds One Known Exploited Vulnerability to Catalog",
+    "cves": [
+      "CVE-2025-21042"
+    ],
+    "indicators": [
+      {
+        "type": "cve",
+        "value": "CVE-2025-21042",
+        "confidence": 95
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "vulnerability",
+      "exploit",
+      "kev"
+    ],
+    "author": {
+      "name": "Cybersecurity and Infrastructure Security Agency",
+      "id": "CISA",
+      "type": "agency",
+      "profile_url": "https://www.cisa.gov/"
+    },
+    "references": [
+      "https://**"
+    ],
+    "raw": {
+      "content": "An official website of the United States government  \n**Official websites use .gov**  \nA**.gov** website belongs to an official government organization in the United States.\nLock\nA locked padlock\n**Secure .gov websites use HTTPS**  \nA**lock**(LockA locked padlock) or**https://** means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.\n[Critical Infrastructure Security and Resilience](https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience)\n[Election Security](https://www.cisa.gov/topics/election-security)\n[Information and Communications Technology Supply Chain Security](https://www.cisa.gov/topics/information-communications-technology-supply-chain-security)\n[Physical Security](https://www.cisa.gov/topics/physical-security)\n[Request a CISA Speaker](https://www.cisa.gov/news-events/request-speaker)\n[CISA Conferences](https://www.cisa.gov/cisa-conferences)\n[CISA Live!](https://www.cisa.gov/cisa-live)\n[Doing Business with CISA](https://www.cisa.gov/doing-business-cisa)\n[CISA GitHub](https://www.cisa.gov/cisa-github)\n[CISA Central](https://www.cisa.gov/cisa-central)\n* CISA Adds One Known Exploited Vulnerability to Catalog\n# CISA Adds One Known Exploited Vulnerability to Catalog\nCISA has added one new vulnerability to its[Known Exploited Vulnerabilities (KEV) Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog \"Known Exploited Vulnerabilities \\(KEV\\) Catalog\"), based on evidence of active exploitation.\n* [_CVE-2025-21042_(link is external)](https://www.cve.org/CVERecord?id=CVE-2025-21042 \"CVE-2025-21042 \\(opens in a new window\\)\")Samsung Mobile Devices Out-of-Bounds Write Vulnerability\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\n[Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities](https://www.cisa.gov/binding-operational-directive-22-01 \"Binding Operational Directive \\(BOD\\) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities\")established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the[BOD 22-01 Fact Sheet](https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf \"BOD 22-01 Fact Sheet\")for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of[KEV Catalog vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog \"Known Exploited Vulnerabilities Catalog\")as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the[specified criteria](https://www.cisa.gov/known-exploited-vulnerabilities \"Reducing the Significant Risk of Known Exploited Vulnerabilities\").\n## Please share your thoughts\n[Cybersecurity & Infrastructure Security Agency](https://www.cisa.gov/ \"Go to the Cybersecurity & Infrastructure Security Agency homepage\")\nCISA Central[1-844-Say-CISA](tel:1-844-Say-CISA)contact@cisa.dhs.gov\nAn official website of the U.S. Department of Homeland Security\n* [About CISA](https://www.cisa.gov/about \"About CISA\")\n* [Website Feedback](https://www.cisa.gov/forms/feedback \"Website Feedback\")\n"
+    },
+    "provenance": {
+      "ingested_from_file": "CISA_Markdown.json",
+      "original_record_id": "https://www.cisa.gov/news-events/alerts/2025/11/10/cisa-adds-one-known-exploited-vulnerability-catalog"
+    }
+  },
+  {
+    "id": "cisa::cfd233c6-b684-4a67-b619-b761a4948682",
+    "source": "cisa",
+    "source_url": "https://www.cisa.gov/news-events/alerts/2025/11/06/cisa-releases-four-industrial-control-systems-advisories",
+    "ingest_timestamp": "2025-12-10T01:42:15.208Z",
+    "published_timestamp": "2025-12-10T01:42:15.208Z",
+    "title": "CISA Releases Four Industrial Control Systems Advisories",
+    "text": "# CISA Releases Four Industrial Control Systems Advisories\nRelease Date\nIndustrial Control System Vulnerabilities,Industrial Control Systems\nCISA released four Industrial Control Systems (ICS) Advisories. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\n* ICSA-25-310-03ABB FLXeon Controllers\n \nCISA encourages users and administrators to review newly released ICS Advisories for technical details and mitigations.\nTopics :Industrial Control System Vulnerabilities,Industrial Control Systems",
+    "summary": "# CISA Releases Four Industrial Control Systems Advisories",
+    "cves": [],
+    "indicators": [
+      {
+        "type": "informational",
+        "value": "context",
+        "confidence": 10
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "exploit",
+      "ics"
+    ],
+    "author": {
+      "name": "Cybersecurity and Infrastructure Security Agency",
+      "id": "CISA",
+      "type": "agency",
+      "profile_url": "https://www.cisa.gov/"
+    },
+    "references": [
+      "https://**"
+    ],
+    "raw": {
+      "content": "An official website of the United States government  \n**Official websites use .gov**  \nA**.gov** website belongs to an official government organization in the United States.\nLock\nA locked padlock\n**Secure .gov websites use HTTPS**  \nA**lock**(LockA locked padlock) or**https://** means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.\n[Cyber Threats and Advisories](https://www.cisa.gov/topics/cyber-threats-and-advisories)\n[Critical Infrastructure Security and Resilience](https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience)\n[Election Security](https://www.cisa.gov/topics/election-security)\n[Industrial Control Systems](https://www.cisa.gov/topics/industrial-control-systems)\n[Information and Communications Technology Supply Chain Security](https://www.cisa.gov/topics/information-communications-technology-supply-chain-security)\n[Physical Security](https://www.cisa.gov/topics/physical-security)\n[Cybersecurity Alerts & Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories)\n[Request a CISA Speaker](https://www.cisa.gov/news-events/request-speaker)\n[CISA Conferences](https://www.cisa.gov/cisa-conferences)\n[CISA Live!](https://www.cisa.gov/cisa-live)\n[Doing Business with CISA](https://www.cisa.gov/doing-business-cisa)\n[CISA GitHub](https://www.cisa.gov/cisa-github)\n[CISA Central](https://www.cisa.gov/cisa-central)\n* [Cybersecurity Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories)\n* CISA Releases Four Industrial Control Systems Advisories\n# CISA Releases Four Industrial Control Systems Advisories\nRelease Date\n[Industrial Control System Vulnerabilities](https://www.cisa.gov/topics/industrial-control-systems/industrial-control-system-vulnerabilities),[Industrial Control Systems](https://www.cisa.gov/topics/industrial-control-systems)\nCISA released four Industrial Control Systems (ICS) Advisories. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\n* ICSA-25-310-03[ABB FLXeon Controllers](https://www.cisa.gov/news-events/ics-advisories/icsa-25-310-03 \"ABB FLXeon Controllers\")\n  \nCISA encourages users and administrators to review newly released ICS Advisories for technical details and mitigations.\n**Topics** :[Industrial Control System Vulnerabilities](https://www.cisa.gov/topics/industrial-control-systems/industrial-control-system-vulnerabilities),[Industrial Control Systems](https://www.cisa.gov/topics/industrial-control-systems)\n## Please share your thoughts\n## Related Advisories\n### [CISA Releases Three Industrial Control Systems Advisories](https://www.cisa.gov/news-events/alerts/2025/12/09/cisa-releases-three-industrial-control-systems-advisories)\n### [CISA Releases Nine Industrial Control Systems Advisories](https://www.cisa.gov/news-events/alerts/2025/12/04/cisa-releases-nine-industrial-control-systems-advisories)\n### [CISA, Australia, and Partners Author Joint Guidance on Securely Integrating Artificial Intelligence in Operational Technology](https://www.cisa.gov/news-events/alerts/2025/12/03/cisa-australia-and-partners-author-joint-guidance-securely-integrating-artificial-intelligence)\n### [CISA Releases Five Industrial Control Systems Advisories](https://www.cisa.gov/news-events/alerts/2025/12/02/cisa-releases-five-industrial-control-systems-advisories)\n[Cybersecurity & Infrastructure Security Agency](https://www.cisa.gov/ \"Go to the Cybersecurity & Infrastructure Security Agency homepage\")\nCISA Central[1-844-Say-CISA](tel:1-844-Say-CISA)contact@cisa.dhs.gov\nAn official website of the U.S. Department of Homeland Security\n* [About CISA](https://www.cisa.gov/about \"About CISA\")\n* [Website Feedback](https://www.cisa.gov/forms/feedback \"Website Feedback\")\n"
+    },
+    "provenance": {
+      "ingested_from_file": "CISA_Markdown.json",
+      "original_record_id": "https://www.cisa.gov/news-events/alerts/2025/11/06/cisa-releases-four-industrial-control-systems-advisories"
+    }
+  },
+  {
+    "id": "cisa::9e7700ed-3153-410b-b89f-4dcca8e42b9d",
+    "source": "cisa",
+    "source_url": "https://www.cisa.gov/news-events/alerts/2025/11/04/cisa-releases-five-industrial-control-systems-advisories",
+    "ingest_timestamp": "2025-12-10T01:42:15.208Z",
+    "published_timestamp": "2025-12-10T01:42:15.208Z",
+    "title": "CISA Releases Five Industrial Control Systems Advisories",
+    "text": "# CISA Releases Five Industrial Control Systems Advisories\nRelease Date\nCISA released five Industrial Control Systems (ICS) Advisories. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\n \nCISA encourages users and administrators to review newly released ICS Advisories for technical details and mitigations.",
+    "summary": "# CISA Releases Five Industrial Control Systems Advisories",
+    "cves": [],
+    "indicators": [
+      {
+        "type": "informational",
+        "value": "context",
+        "confidence": 10
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "exploit",
+      "ics"
+    ],
+    "author": {
+      "name": "Cybersecurity and Infrastructure Security Agency",
+      "id": "CISA",
+      "type": "agency",
+      "profile_url": "https://www.cisa.gov/"
+    },
+    "references": [
+      "https://**"
+    ],
+    "raw": {
+      "content": "An official website of the United States government  \n**Official websites use .gov**  \nA**.gov** website belongs to an official government organization in the United States.\nLock\nA locked padlock\n**Secure .gov websites use HTTPS**  \nA**lock**(LockA locked padlock) or**https://** means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.\n[Cyber Threats and Advisories](https://www.cisa.gov/topics/cyber-threats-and-advisories)\n[Critical Infrastructure Security and Resilience](https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience)\n[Election Security](https://www.cisa.gov/topics/election-security)\n[Industrial Control Systems](https://www.cisa.gov/topics/industrial-control-systems)\n[Information and Communications Technology Supply Chain Security](https://www.cisa.gov/topics/information-communications-technology-supply-chain-security)\n[Physical Security](https://www.cisa.gov/topics/physical-security)\n[Cybersecurity Alerts & Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories)\n[Request a CISA Speaker](https://www.cisa.gov/news-events/request-speaker)\n[CISA Conferences](https://www.cisa.gov/cisa-conferences)\n[CISA Live!](https://www.cisa.gov/cisa-live)\n[Doing Business with CISA](https://www.cisa.gov/doing-business-cisa)\n[CISA GitHub](https://www.cisa.gov/cisa-github)\n[CISA Central](https://www.cisa.gov/cisa-central)\n* [Cybersecurity Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories)\n* CISA Releases Five Industrial Control Systems Advisories\n# CISA Releases Five Industrial Control Systems Advisories\nRelease Date\nCISA released five Industrial Control Systems (ICS) Advisories. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\n  \nCISA encourages users and administrators to review newly released ICS Advisories for technical details and mitigations.\n## Please share your thoughts\n[Cybersecurity & Infrastructure Security Agency](https://www.cisa.gov/ \"Go to the Cybersecurity & Infrastructure Security Agency homepage\")\nCISA Central[1-844-Say-CISA](tel:1-844-Say-CISA)contact@cisa.dhs.gov\nAn official website of the U.S. Department of Homeland Security\n* [About CISA](https://www.cisa.gov/about \"About CISA\")\n* [Website Feedback](https://www.cisa.gov/forms/feedback \"Website Feedback\")\n"
+    },
+    "provenance": {
+      "ingested_from_file": "CISA_Markdown.json",
+      "original_record_id": "https://www.cisa.gov/news-events/alerts/2025/11/04/cisa-releases-five-industrial-control-systems-advisories"
+    }
+  },
+  {
+    "id": "cisa::c7141670-5b8d-415e-a0bb-51ab1abe3272",
+    "source": "cisa",
+    "source_url": "https://www.cisa.gov/news-events/alerts/2025/11/04/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "ingest_timestamp": "2025-12-10T01:42:15.209Z",
+    "published_timestamp": "2025-12-10T01:42:15.209Z",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "text": "# CISA Adds Two Known Exploited Vulnerabilities to Catalog\nKnown Exploited Vulnerabilities (KEV) Catalog\n* CVE-2025-11371(link is external)\")Gladinet CentreStack and Triofox Files or Directories Accessible to External Parties Vulnerability\n* CVE-2025-48703(link is external)\")CWP Control Web Panel OS Command Injection Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities\nBOD 22-01 Fact Sheet\nKEV Catalog vulnerabilities\nspecified criteria",
+    "summary": "# CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "cves": [
+      "CVE-2025-11371",
+      "CVE-2025-48703"
+    ],
+    "indicators": [
+      {
+        "type": "cve",
+        "value": "CVE-2025-11371",
+        "confidence": 95
+      },
+      {
+        "type": "cve",
+        "value": "CVE-2025-48703",
+        "confidence": 95
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "vulnerability",
+      "exploit",
+      "kev"
+    ],
+    "author": {
+      "name": "Cybersecurity and Infrastructure Security Agency",
+      "id": "CISA",
+      "type": "agency",
+      "profile_url": "https://www.cisa.gov/"
+    },
+    "references": [
+      "https://**"
+    ],
+    "raw": {
+      "content": "An official website of the United States government  \n**Official websites use .gov**  \nA**.gov** website belongs to an official government organization in the United States.\nLock\nA locked padlock\n**Secure .gov websites use HTTPS**  \nA**lock**(LockA locked padlock) or**https://** means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.\n[Critical Infrastructure Security and Resilience](https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience)\n[Election Security](https://www.cisa.gov/topics/election-security)\n[Information and Communications Technology Supply Chain Security](https://www.cisa.gov/topics/information-communications-technology-supply-chain-security)\n[Physical Security](https://www.cisa.gov/topics/physical-security)\n[Request a CISA Speaker](https://www.cisa.gov/news-events/request-speaker)\n[CISA Conferences](https://www.cisa.gov/cisa-conferences)\n[CISA Live!](https://www.cisa.gov/cisa-live)\n[Doing Business with CISA](https://www.cisa.gov/doing-business-cisa)\n[CISA GitHub](https://www.cisa.gov/cisa-github)\n[CISA Central](https://www.cisa.gov/cisa-central)\n* CISA Adds Two Known Exploited Vulnerabilities to Catalog\n# CISA Adds Two Known Exploited Vulnerabilities to Catalog\n_Known Exploited Vulnerabilities (KEV) Catalog_\n* [_CVE-2025-11371_(link is external)](https://www.cve.org/CVERecord?id=CVE-2025-11371 \"CVE-2025-11371 \\(opens in a new window\\)\")Gladinet CentreStack and Triofox Files or Directories Accessible to External Parties Vulnerability\n* [_CVE-2025-48703_(link is external)](https://www.cve.org/CVERecord?id=CVE-2025-48703 \"CVE-2025-48703 \\(opens in a new window\\)\")CWP Control Web Panel OS Command Injection Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\n_Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities_\n_BOD 22-01 Fact Sheet_\n_KEV Catalog vulnerabilities_\n_specified criteria_\n## Please share your thoughts\n[Cybersecurity & Infrastructure Security Agency](https://www.cisa.gov/ \"Go to the Cybersecurity & Infrastructure Security Agency homepage\")\nCISA Central[1-844-Say-CISA](tel:1-844-Say-CISA)contact@cisa.dhs.gov\nAn official website of the U.S. Department of Homeland Security\n* [About CISA](https://www.cisa.gov/about \"About CISA\")\n* [Website Feedback](https://www.cisa.gov/forms/feedback \"Website Feedback\")\n"
+    },
+    "provenance": {
+      "ingested_from_file": "CISA_Markdown.json",
+      "original_record_id": "https://www.cisa.gov/news-events/alerts/2025/11/04/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+    }
+  },
+  {
+    "id": "cisa::1bd5f8c0-3464-4978-9f18-4477c6281e7b",
+    "source": "cisa",
+    "source_url": "https://www.cisa.gov/news-events/alerts/2025/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "ingest_timestamp": "2025-12-10T01:42:15.209Z",
+    "published_timestamp": "2025-12-10T01:42:15.209Z",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "text": "# CISA Adds Two Known Exploited Vulnerabilities to Catalog\nKnown Exploited Vulnerabilities (KEV) Catalog\n* CVE-2025-24893(link is external)\")XWiki Platform Eval Injection Vulnerability\n* CVE-2025-41244(link is external)\")Broadcom VMware Aria Operations and VMware Tools Privilege Defined with Unsafe Actions Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities\nBOD 22-01 Fact Sheet\nKEV Catalog vulnerabilities\nspecified criteria",
+    "summary": "# CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "cves": [
+      "CVE-2025-24893",
+      "CVE-2025-41244"
+    ],
+    "indicators": [
+      {
+        "type": "cve",
+        "value": "CVE-2025-24893",
+        "confidence": 95
+      },
+      {
+        "type": "cve",
+        "value": "CVE-2025-41244",
+        "confidence": 95
+      }
+    ],
+    "ttps": [],
+    "tags": [
+      "osint",
+      "threat",
+      "vulnerability",
+      "exploit",
+      "kev"
+    ],
+    "author": {
+      "name": "Cybersecurity and Infrastructure Security Agency",
+      "id": "CISA",
+      "type": "agency",
+      "profile_url": "https://www.cisa.gov/"
+    },
+    "references": [
+      "https://**"
+    ],
+    "raw": {
+      "content": "An official website of the United States government  \n**Official websites use .gov**  \nA**.gov** website belongs to an official government organization in the United States.\nLock\nA locked padlock\n**Secure .gov websites use HTTPS**  \nA**lock**(LockA locked padlock) or**https://** means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.\n[Critical Infrastructure Security and Resilience](https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience)\n[Election Security](https://www.cisa.gov/topics/election-security)\n[Information and Communications Technology Supply Chain Security](https://www.cisa.gov/topics/information-communications-technology-supply-chain-security)\n[Physical Security](https://www.cisa.gov/topics/physical-security)\n[Request a CISA Speaker](https://www.cisa.gov/news-events/request-speaker)\n[CISA Conferences](https://www.cisa.gov/cisa-conferences)\n[CISA Live!](https://www.cisa.gov/cisa-live)\n[Doing Business with CISA](https://www.cisa.gov/doing-business-cisa)\n[CISA GitHub](https://www.cisa.gov/cisa-github)\n[CISA Central](https://www.cisa.gov/cisa-central)\n* CISA Adds Two Known Exploited Vulnerabilities to Catalog\n# CISA Adds Two Known Exploited Vulnerabilities to Catalog\n_Known Exploited Vulnerabilities (KEV) Catalog_\n* [_CVE-2025-24893_(link is external)](https://www.cve.org/CVERecord?id=CVE-2025-24893 \"CVE-2025-24893 \\(opens in a new window\\)\")XWiki Platform Eval Injection Vulnerability\n* [_CVE-2025-41244_(link is external)](https://www.cve.org/CVERecord?id=CVE-2025-41244 \"CVE-2025-41244 \\(opens in a new window\\)\")Broadcom VMware Aria Operations and VMware Tools Privilege Defined with Unsafe Actions Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\n_Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities_\n_BOD 22-01 Fact Sheet_\n_KEV Catalog vulnerabilities_\n_specified criteria_\n## Please share your thoughts\n[Cybersecurity & Infrastructure Security Agency](https://www.cisa.gov/ \"Go to the Cybersecurity & Infrastructure Security Agency homepage\")\nCISA Central[1-844-Say-CISA](tel:1-844-Say-CISA)contact@cisa.dhs.gov\nAn official website of the U.S. Department of Homeland Security\n* [About CISA](https://www.cisa.gov/about \"About CISA\")\n* [Website Feedback](https://www.cisa.gov/forms/feedback \"Website Feedback\")\n"
+    },
+    "provenance": {
+      "ingested_from_file": "CISA_Markdown.json",
+      "original_record_id": "https://www.cisa.gov/news-events/alerts/2025/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+    }
+  }
+]
