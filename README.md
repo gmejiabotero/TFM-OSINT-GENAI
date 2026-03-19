@@ -21,8 +21,10 @@ Next screencast records OSINT information scrapping and normalization
 # OSINT-GenAI Embeddings and Vectorization for RAG
 Next screencast records how to Qdrant tranforms markdown info in to vectors.
 #
+![OSINT-INGESTION](https://img.youtube.com/vi/4unzFl6RgUQ/0.jpg)](https://www.youtube.com/watch?v=4unzFl6RgUQ)
 #
 # OSINT-GenAI Ciberthreat Intelligence Production
-Next screencast records how to Mistral LLM helps to respond questions about Threats and answer including TTPs, CVEs and IOCs.
+Next screencast records how to a general trained LLM like Mistral (but could be other like Ollama, Gemini, Claude etc) helps to respond questions about Threats and answer including TTPs, CVEs and IOCs.
 #
+![OSINT-INGESTION](https://img.youtube.com/vi/XSayfnaYKeg/0.jpg)](https://www.youtube.com/watch?v=XSayfnaYKeg)
 #
