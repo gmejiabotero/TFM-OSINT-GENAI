@@ -16,6 +16,7 @@ Architecture is containerized with Docker and use N8N as integration and automat
 # OSINT-GenAI OSINT scrapping and ingestion video
 Next screencast records OSINT information scrapping and normalization
 #
+![OSINT-INGESTION](https://img.youtube.com/vi/WawByzvT_cM/0.jpg)](https://www.youtube.com/watch?v=WawByzvT_cM)
 #
 # OSINT-GenAI Embeddings and Vectorization for RAG
 Next screencast records how to Qdrant tranforms markdown info in to vectors.
