@@ -9,3 +9,19 @@ OSINT-GenAI is an N8N that integrates different scrapping tools like CRAWL4AI, H
 #
 # ARCHITECTURE
 ![OSINT-GenAI-Wflow](assets/OSINTAI-HL-ARCH-v3.png)
+#
+Architecture is containerized with Docker and use N8N as integration and automation orchestrator.
+#
+#
+# OSINT-GenAI OSINT scrapping and ingestion video
+Next screencast records OSINT information scrapping and normalization
+#
+#
+# OSINT-GenAI Embeddings and Vectorization for RAG
+Next screencast records how to Qdrant tranforms markdown info in to vectors.
+#
+#
+# OSINT-GenAI Ciberthreat Intelligence Production
+Next screencast records how to Mistral LLM helps to respond questions about Threats and answer including TTPs, CVEs and IOCs.
+#
+#
